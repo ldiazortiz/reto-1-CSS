@@ -17,19 +17,29 @@
 }
 
 body {
+  background-color: #fff;
   max-width: 375px;
   width: 90%;
-  background-color: var(--color-Pale-blue);
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   margin: 0 auto;
+  background-color: var(--color-Pale-blue);
 }
 
-.main {
-  background-color: #fff;
-  font-size: 1rem;
+.main-figure__img{
+  max-width:;
+  /* max-height: fit-content; */
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
-/* h1 {
-  text-align: center;
-} */
+.section-information {
+  background-color: white;
+  margin-top: 100px;
+}
+
+.section-information-title {
+  color: black;
+  font-weight: 900;
+  font-family: inherit;
+}
